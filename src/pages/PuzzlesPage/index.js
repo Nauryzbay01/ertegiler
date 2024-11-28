@@ -10,8 +10,8 @@ import tolagaiQr from "../../audio/qr-tolagai.png";
 import tazshaBala from "../../audio/tazsha-bala.png";
 
 import tolagay from "../../audio/tolagay.png";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 import PuzzleCard from "../../components/PuzzleCard";
 
 export const data = [

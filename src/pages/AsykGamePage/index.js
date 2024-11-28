@@ -20,8 +20,8 @@ import qrErtostik from "../../audio/qr-er-tostik.png";
 import qrKhaiuanattar from "../../audio/qr-khaiuanattar.png";
 import qrMaqtaqyz from "../../audio/qr-maqta-qyz.png";
 import qrQarlygash from "../../audio/qr-qarlygash.png";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 
 const style = {
   position: "absolute",

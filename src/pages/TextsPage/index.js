@@ -8,8 +8,8 @@ import tolagay from "../../audio/tolagay.png";
 import wyqbermes from "../../audio/wyqbermes.webp";
 import khaiuanattar from "../../audio/zhyl_basyna.gif";
 import Card from "../../components/Card/index";
-import Footer from "../../components/Footer";
-import Header from "../../components/Header";
+import Footer from "../../components/footer";
+import Header from "../../components/header";
 export const data = [
   {
     title: "Қарлығаштың құйрығы неге айыр?",
