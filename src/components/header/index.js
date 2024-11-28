@@ -18,7 +18,7 @@ const Header = () => {
           </li>
           <li>
             <Link to="/" className="">
-              <img src={logo} />
+              <img src={logo} alt="logogdhdhdg" />
             </Link>
           </li>
           <li>

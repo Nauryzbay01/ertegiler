@@ -1206,7 +1206,7 @@ const Text = () => {
           <div className="text_left">
             <h1>{renderTitle}</h1>
             <p className="text_img">
-              <img src={imgSrc} />
+              <img src={imgSrc} alt="pic" />
             </p>
             <div className="text__content">{renderText()}</div>
           </div>

@@ -118,7 +118,7 @@ function ChildModal({ videoSrc, qrSrc }) {
       <button className="qr-button" onClick={handleOpen}>
         <div className="modal_image_wrapper qr">
           {" "}
-          <img src={qrSrc} />
+          <img src={qrSrc} alt="pic" />
         </div>
       </button>
       <Modal
@@ -147,7 +147,6 @@ const Asyk = () => {
   const [dataArr, setDataArr] = useState(data);
   const [open, setOpen] = useState(false);
   const [currentItem, setCurrentItem] = useState({});
-  const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
   const handleClick = (id) => {
     setOpen(true);
@@ -171,7 +170,7 @@ const Asyk = () => {
           <Box sx={style}>
             <Typography id="modal-modal-description" sx={{ mt: 2 }}>
               <div className="modal_image_wrapper">
-                <img src={currentItem?.image} />
+                <img src={currentItem?.image} alt="pic" />
               </div>
             </Typography>
             <ChildModal
@@ -189,7 +188,7 @@ const Asyk = () => {
                   className={`asik_item ${el.clicked ? "clicked" : ""}`}
                 >
                   <span>{el.index}</span>
-                  <img src={asyk} />
+                  <img src={asyk} alt="pic" />
                 </div>
               ))}
             </div>

@@ -360,17 +360,12 @@ h1 {
   color: #0f2e3f;
   margin-bottom: 40px;
 }
-.css-10cv5sc-MuiPaper-root-MuiAlert-root {
-  /* background-color: #086f6c !important; */
-}
+
 .asyk_page_content {
   display: flex;
   justify-content: space-between;
 }
 
-.asyk_page_content .info {
-  /* width: 28%; */
-}
 .asik_item span {
   color: white;
   position: absolute;

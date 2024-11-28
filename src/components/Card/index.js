@@ -33,7 +33,7 @@ const Card = ({ title, img, link, text, type = "" }) => {
     return (
       <Link to={`/texts/${link}`} className="card_row card">
         <div className="image_wrapper">
-          <img src={img} />
+          <img src={img} alt="picehgeh" />
         </div>
         <div className="card_row_text">
           <h5>{title}</h5>
@@ -44,7 +44,7 @@ const Card = ({ title, img, link, text, type = "" }) => {
   return (
     <Link to={`${link}`} className="card">
       <div className="image_wrapper">
-        <img src={img} />
+        <img src={img} alt="pic" />
       </div>
       <h5>{title}</h5>
       <ReadMoreText text={text} />

@@ -130,7 +130,7 @@ const Puzzle = () => {
               </Typography> */}
               <Typography id="modal-modal-description" sx={{ mt: 2 }}>
                 <div className="modal_puzzle_wrapper">
-                  <img src={getElem?.qr} />
+                  <img src={getElem?.qr} alt="pic" />
                 </div>
               </Typography>
             </Box>
