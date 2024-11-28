@@ -4,8 +4,8 @@ import React, { useCallback, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
 import pasteAudio from "../../audio/onPaste.mp3";
 import clickAudio from "../../audio/onSelect.mp3";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 import { data } from "../PuzzlesPage/index";
 const style = {
   position: "absolute",

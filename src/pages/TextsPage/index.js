@@ -7,9 +7,9 @@ import tazshaBala from "../../audio/tazsha-bala.png";
 import tolagay from "../../audio/tolagay.png";
 import wyqbermes from "../../audio/wyqbermes.webp";
 import khaiuanattar from "../../audio/zhyl_basyna.gif";
-import Card from "../../components/card/index";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import Card from "../../components/Card/index";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 export const data = [
   {
     title: "Қарлығаштың құйрығы неге айыр?",

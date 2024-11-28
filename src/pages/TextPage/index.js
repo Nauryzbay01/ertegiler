@@ -1,7 +1,7 @@
 import { useLocation } from "react-router-dom";
-import Card from "../../components/card";
-import Footer from "../../components/footer";
-import Header from "../../components/header";
+import Card from "../../components/Card";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
 import { data } from "../TextsPage/index";
 const Text = () => {
   const location = useLocation();
