@@ -7,7 +7,7 @@ import tazshaBala from "../../audio/tazsha-bala.png";
 import tolagay from "../../audio/tolagay.png";
 import wyqbermes from "../../audio/wyqbermes.webp";
 import khaiuanattar from "../../audio/zhyl_basyna.gif";
-import Card from "../../components/card";
+import Card from "../../components/card/index";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 export const data = [

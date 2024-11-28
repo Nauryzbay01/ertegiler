@@ -37,7 +37,6 @@ const Card = ({ title, img, link, text, type = "" }) => {
         </div>
         <div className="card_row_text">
           <h5>{title}</h5>
-          {/* <ReadMoreText text={text} /> */}
         </div>
       </Link>
     );
