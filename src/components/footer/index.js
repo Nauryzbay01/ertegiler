@@ -17,7 +17,6 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      {/* <div className="footer_wrapper">Ertegiler 2024</div> */}
     </div>
   );
 };
