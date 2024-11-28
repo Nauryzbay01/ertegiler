@@ -1,5 +1,3 @@
-// import { JigsawPuzzle } from "react-jigsaw-puzzle/lib";
-import "react-jigsaw-puzzle/lib/jigsaw-puzzle.css";
 import aldar from "../../audio/aldar_kose.jpeg";
 import aldarQr from "../../audio/qr-aldar.png";
 
