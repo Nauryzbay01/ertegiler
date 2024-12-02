@@ -80,7 +80,7 @@ const Texts = () => {
       <Header />
       <div className="container">
         <div className="card__wrapper">
-          <h1>Қазақша ертегілер</h1>
+          <h1>Ертегілер әлеміне қош келдің!</h1>
           <div className="cards">
             {data.map((el, idx) => (
               <Card

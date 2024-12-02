@@ -1,4 +1,4 @@
-import { Modal, Typography } from "@mui/material";
+import { Alert, Modal, Typography } from "@mui/material";
 import { Box } from "@mui/system";
 import React, { useCallback, useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
@@ -135,21 +135,29 @@ const Puzzle = () => {
               </Typography>
             </Box>
           </Modal>
+
           <div className="puzzle-header-elem">
             <div className="left-elem">
               <h1>Пазл ойыны</h1>
-
-              {/* <Alert style={{ marginBottom: "20px" }} severity="info">
+              <Alert style={{ marginBottom: "20px" }} severity="info">
                 Оң жақтағы суреттің карточкаларын тінтуірмен басып тұру арқылы
                 жылжытып, сол жақтағы ұяшықтарға жинау қажет. Суретті ұяшықта
                 дұрыс жинаған жағдайда кейіпкер жайлы мультфильмнің QR коды
                 шығады
-              </Alert> */}
+              </Alert>
+              <Alert severity="warning">
+                Ескерту: бетті қайтадан жүктеген (обновление) жағдайда ойын
+                басынан басталады
+              </Alert>
             </div>
-            <button className="puzzle-restart" onClick={restartGame}>
-              Басынан бастау
-            </button>
+            <div className="right-elem">
+              {" "}
+              <img className="example-image" src={imageSrc} alt="puzzle" />
+            </div>
           </div>
+          <button className="puzzle-restart" onClick={restartGame}>
+            Басынан бастау
+          </button>
           <div className="puzzle-container">
             <div className="pieces">
               {pieces.map((piece, index) =>
@@ -177,8 +185,8 @@ const Puzzle = () => {
             {/* Сетка */}
             <div
               style={{
-                gridTemplateColumns: `repeat(${cols}, 120px)`,
-                gridTemplateRows: `repeat(${rows}, 120px)`,
+                gridTemplateColumns: `repeat(${cols}, 130px)`,
+                gridTemplateRows: `repeat(${rows}, 130px)`,
               }}
               className="grid"
             >
