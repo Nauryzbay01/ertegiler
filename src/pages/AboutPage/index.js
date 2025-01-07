@@ -1,11 +1,7 @@
-import { useLocation } from "react-router-dom";
 import imgSrc from "../../audio/author-photo.jpeg";
 import Footer from "../../components/footer";
 import Header from "../../components/header";
 const About = () => {
-  const location = useLocation();
-  const { pathname } = location;
-
   const renderText = () => {
     return (
       <>
