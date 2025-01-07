@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import About from "./pages/AboutPage";
 import Asyk from "./pages/AsykGamePage";
 import MainPage from "./pages/MainPage";
 import PaintPage from "./pages/PaintPage";
@@ -20,6 +21,7 @@ function App() {
 
           <Route path="/texts" element={<Texts />} />
           <Route path="/paint" element={<PaintPage />} />
+          <Route path="/about" element={<About />} />
 
           <Route path="/texts/:id" element={<Text />} />
         </Routes>

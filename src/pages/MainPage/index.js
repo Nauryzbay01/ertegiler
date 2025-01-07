@@ -21,6 +21,9 @@ const MainPage = () => {
             <Link className={style.button} to="/paint">
               Кейіпкерлерді бояу
             </Link>
+            <Link className={style.button} to="/about">
+              Сайт жайлы
+            </Link>
           </div>
         </div>
       </div>

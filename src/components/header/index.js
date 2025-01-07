@@ -7,6 +7,11 @@ const Header = () => {
       <div className="container">
         <ul>
           <li>
+            <Link to="/" className="">
+              <img src={logo} alt="logogdhdhdg" />
+            </Link>
+          </li>
+          <li>
             <Link to="/texts" className="">
               Ертегілер
             </Link>
@@ -16,11 +21,7 @@ const Header = () => {
               Пазл ойыны
             </Link>
           </li>
-          <li>
-            <Link to="/" className="">
-              <img src={logo} alt="logogdhdhdg" />
-            </Link>
-          </li>
+
           <li>
             <Link to="/asyk-oiyny" className="">
               Асық ойыны
@@ -29,6 +30,11 @@ const Header = () => {
           <li>
             <Link to="/paint" className="">
               Кейіпкерлерді бояу
+            </Link>
+          </li>
+          <li>
+            <Link to="/about" className="">
+              Сайт жайлы
             </Link>
           </li>
         </ul>
