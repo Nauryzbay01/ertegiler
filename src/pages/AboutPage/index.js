@@ -25,7 +25,7 @@ const About = () => {
       <Header />
       <div className="container">
         <div className="about_wrapper">
-          <h1>Сайт жайлы</h1>
+          <h1>Авторы</h1>
           <div className="about_left">
             <p className="about_img">
               <img src={imgSrc} alt="pic" />
